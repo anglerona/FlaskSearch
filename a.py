@@ -27,7 +27,7 @@ def show():
     }
 
 
-# recusivly checks dictionary to see if the valaue contains the search string
+# recursively checks dictionary to see if the valaue contains the search string
 def checkString(dictionary, string):
   for k, v in dictionary.items():
     if isinstance(v, dict):
